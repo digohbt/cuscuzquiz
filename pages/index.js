@@ -7,9 +7,12 @@ import db from '../db.json';
 import Widget from '../src/components/Widget'
 import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground'
+import QuizContainer from '../src/components/QuizContainer'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import Head from '../src/components/Head'
+import Buttom from '../src/components/Buttom'
+import Input from '../src/components/Input'
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -18,18 +21,24 @@ import Head from '../src/components/Head'
 //   background-position: center;
 // `;
 
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
+//  const QuizContainer = styled.div`
+//   width: 100%;
+//   max-width: 350px;
+//   padding-top: 45px;
+//   margin: auto 10%;
+//   @media screen and (max-width: 500px) {
+//     margin: auto;
+//     padding: 15px;
+//   }
+// `;
 
-export default function Home() {
+// const QuizContainer = styled.div`
+//   width: 100%;
+//   max-width: 350px;
+//   padding-top: 45px;
+//   `
+
+ export default function Home() { 
   const router = useRouter();
   const  [name, setName] = React.useState('');
 
@@ -44,19 +53,30 @@ export default function Home() {
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
-            <form onSubmit={function (infosDoEvento) {
+            <p > 
+            Esse quiz é para descobrir se voçe gosta de cuscuz !
+            </p>
+            <form onSubmit={ (infosDoEvento) => {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
             }}>
-              <input 
+              <Input 
+              name="nomedousuario"
+              value={name}
               onChange ={ function (infosDoEvento) {
                 // name = infosDoEvento.target.value;
                 setName(infosDoEvento.target.value)
               }}
               placeholder="Digite seu nome" />
-              <button type="submit" disabled={name.length === 0 }>
-                Jogar [{name}]
-              </button>
+
+              <Buttom name={name} setName={setName} >
+              {`Jogar ${name}`}
+              </Buttom>
+               
+              {/* <button className="buttom" type="submit" disabled={name.length === 0 }>
+                
+              </button> */}
+
             </form>
           </Widget.Content>
         </Widget>
@@ -73,4 +93,5 @@ export default function Home() {
       <GitHubCorner projectUrl="https://github.com/digohbt" />
     </QuizBackground>
   );
-}
+
+            }
