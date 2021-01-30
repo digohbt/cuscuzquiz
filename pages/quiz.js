@@ -80,6 +80,7 @@ function QuestionWidget({
   const isCorrect = selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
   return (
+    <>
     <Widget>
       <Widget.Header>
         {/* <BackLinkArrow href="/" /> */}
@@ -102,7 +103,7 @@ function QuestionWidget({
           {question.title}
         </h2>
         <p>
-          {question.description}
+          {/* {question.description} */}
         </p>
 
         <AlternativesForm
@@ -149,11 +150,18 @@ function QuestionWidget({
           <Button type="submit" disabled={!hasAlternativeSelected}>
             Confirmar
           </Button>
-          {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
-          {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
+         
         </AlternativesForm>
+        
       </Widget.Content>
+      
+      
     </Widget>
+    <Widget  >
+       {isQuestionSubmited && isCorrect && <div> </div>  }
+       {isQuestionSubmited && !isCorrect &&( <div>  <p>{question.description}</p></div>) }
+    </Widget>
+    </>
   );
 }
 

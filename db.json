@@ -5,60 +5,65 @@
     "questions": [
       {
         "image": "https://media.giphy.com/media/3o6MbnvuZWdgL2JI88/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "title": "O cuscuz teve origem em qual continente ?",
+        "description": "Cuscuz é um prato berbere originário do Magrebe (região do noroeste do continente africano). ",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "América",
+          "Europa",
+          "África",
+          "Ásia"   
+         
         ]
       },
       {
         "image": "https://media.giphy.com/media/eSQKNSmg07dHq/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "title": "Cuscuz prato típico de qual edição Brasil ?",
+        "description": "O cuscuz é um alimento típico da região Nordeste, mas que já é consumido em todo o Brasil.",
+        "answer": 1,
+        "alternatives": [
+           "Sul",
+           "Nordeste",
+           "Sudeste",
+           "Norte"
+
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/3o6MbnvuZWdgL2JI88/giphy.gif",
+        "title": "Quantas calorias tem um  padeço de cuscuz (100g) ?",
+        "description": "Existem 112 calorias em Cuscuz (Cozido) (100 g). ",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "112 calorias", 
+          "132 calorias" ,
+          "115 calorias",
+          "0   calorias" 
+          
         ]
       },
       {
-        "image": "https://media.giphy.com/media/26FPpSuhgHvYo9Kyk/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://media.giphy.com/media/eSQKNSmg07dHq/giphy.gif",
+        "title": "Quem Trouxe O Cuscuz Para O Brasil?",
+        "description": "Teve sua introdução no cardápio brasileiro através dos colonizadores portugueses",
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/3o6MbnvuZWdgL2JI88/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Espanhóis",
+          "Afrícanos",
+          "Japoneses ",
+          "Portuguêses"
         ]
       },
       {
         "image": "https://media.giphy.com/media/3o6MbnvuZWdgL2JI88/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "title": "Qual desses ingredientes não é usado no preparo do Cuscuz",
+        "description": "Ingredientes1 xícara de farinha de milho flocada ou flocos de milho pré-cozidos1/2 xícara de água filtrada 1/2 colher (chá) de sal",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Farinha de milho flocada",
+          "Flocos de milho pré-cozidos",
+          "Ovo",
+          "Sal"
         ]
       }
     ],
