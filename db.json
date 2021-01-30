@@ -4,7 +4,7 @@
     "description": "Teste os seus conhecimentos sobre Cuscuz",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media.giphy.com/media/3o6MbnvuZWdgL2JI88/giphy.gif",
         "title": "Como fazer um seletor por id via CSS?",
         "description": "Essa é pra aquecer",
         "answer": 2,
@@ -16,7 +16,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://media.giphy.com/media/eSQKNSmg07dHq/giphy.gif",
         "title": "Como fazer um background gradiente com css?",
         "description": "Faz tempo em haha",
         "answer": 0,
@@ -24,10 +24,49 @@
            "background: linear-gradient(#e66465, #9198e5);",
            "background: gradient(#e66465, #9198e5);"
         ]
+      },
+      {
+        "image": "https://media.giphy.com/media/26FPpSuhgHvYo9Kyk/giphy.gif",
+        "title": "Como fazer um seletor por id via CSS?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/3o6MbnvuZWdgL2JI88/giphy.gif",
+        "title": "Como fazer um seletor por id via CSS?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/3o6MbnvuZWdgL2JI88/giphy.gif",
+        "title": "Como fazer um seletor por id via CSS?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
       }
     ],
     "external": [
-      ""
+      "https://master-quiz.lucasvidigal98.vercel.app/",
+      "https://alura-quiz-basquete.hermeshcg.vercel.app/",
+      "https://flow-quiz.garubieru.vercel.app/",
+      "https://lolzinquiz-git-main.bernardooficial.vercel.app/"
     ],
     "theme": {
       "colors": {
