@@ -210,7 +210,7 @@ export default function QuizPage() {
             questionIndex={questionIndex}
             totalQuestions={totalQuestions}
             onSubmit={handleSubmitQuiz}
-            addResult={addResult}
+            addResult={addResult} 
           />
         )}
 
